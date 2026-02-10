@@ -54,7 +54,7 @@ class CipherApp:
         key_frame = ttk.Frame(frame_table)
         key_frame.pack(fill='x', pady=(0, 5))
 
-        ttk.Label(key_frame, text="Ключ для таблицы:").pack(side='left', padx=(0, 5))
+        ttk.Label(key_frame, text="Ключ:     ").pack(side='left', padx=(0, 5))
         self.key_entry = ttk.Entry(key_frame, width=40)
         self.key_entry.pack(side='left', padx=(0, 10))
 

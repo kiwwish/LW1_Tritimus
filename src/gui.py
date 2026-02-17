@@ -480,8 +480,10 @@ class CipherApp:
             return
 
         result = EnhancedSTrithemus.encrypt_block(block, key)
+        self.enhanced_block_result.config(state='normal')
         self.enhanced_block_result.delete(0, tk.END)
         self.enhanced_block_result.insert(0, result)
+        self.enhanced_block_result.config(state='readonly')
 
     def enhanced_decrypt_block(self):
         """Усиленное дешифрование блока"""
@@ -493,8 +495,10 @@ class CipherApp:
             return
 
         result = EnhancedSTrithemus.decrypt_block(block, key)
+        self.enhanced_block_result.config(state='normal')
         self.enhanced_block_result.delete(0, tk.END)
         self.enhanced_block_result.insert(0, result)
+        self.enhanced_block_result.config(state='readonly')
 
 
 def main():

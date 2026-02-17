@@ -1,3 +1,16 @@
+ALPHABET_SIZE: int = 32
+
+def verify_alphabet() -> bool:
+    print("Проверка алфавита...")
+    for i in range(ALPHABET_SIZE):
+        ch = num2sym(i)
+        j = sym2num(ch)
+        if i != j:
+            print(f"Ошибка: num2sym({i}) = '{ch}', sym2num('{ch}') = {j}")
+            return False
+    print(f"✓ Алфавит корректен: {ALPHABET_SIZE} символов")
+    return True
+
 # Определение номера символа в алфавите
 def sym2num(sym: str) -> int:
     if len(sym) != 1:
@@ -83,3 +96,13 @@ def text2array(text: str) -> list:
 def array2text(arr: list) -> str:
     return ''.join(num2sym(num) for num in arr)
 
+print (text2array('орошо_быть_вами'))
+k = 'хорошо быть вами'
+arr = text2array(k)
+sum = 0
+for i in range (16):
+    sum = (24+sum+(-1)^(i)*arr[i])%24
+    print(arr[i], sum + (-1)^(i) * arr[i], sum)
+
+arr_1 = text2array('блок')
+print(arr_1)

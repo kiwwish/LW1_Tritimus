@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e818828c-d86a-4446-94f9-988ab0c092c8" name="Changes" comment="Исправление орфографических ошибок" />
+    <list default="true" id="e818828c-d86a-4446-94f9-988ab0c092c8" name="Changes" comment="Добавление файлов из .idea">
+      <change afterPath="$PROJECT_DIR$/run_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test_sblocks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/alphabet.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/alphabet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Unit Test" />
         <option value="Python Script" />
       </list>
     </option>
@@ -138,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1770723647617</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Добавление файлов из .idea">
+      <created>1770730088038</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1770730088038</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -152,6 +166,7 @@
     <MESSAGE value="Обновление интерфейса для обычного полиалфавитного шифра Тритимуса" />
     <MESSAGE value="Дороботка интерфейса" />
     <MESSAGE value="Исправление орфографических ошибок" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправление орфографических ошибок" />
+    <MESSAGE value="Добавление файлов из .idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавление файлов из .idea" />
   </component>
 </project>
